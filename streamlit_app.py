@@ -49,4 +49,4 @@ streamlit.dataframe(my_data_rows)
 #streamlit.text(my_data_rows)
 
 #2eme choice box
-add_my_fruit = streamlit.multiselect("What fruit would you lie to add ?:", list(fruityvice_normalized.index),['Jackfruit'])
+add_my_fruit = streamlit.multiselect("What fruit would you lie to add ?:", list(my_fruit_list.index),['Jackfruit'])
