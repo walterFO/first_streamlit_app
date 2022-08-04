@@ -49,4 +49,5 @@ streamlit.dataframe(my_data_rows)
 #streamlit.text(my_data_rows)
 
 #2eme choice box
-add_my_fruit = streamlit.multiselect("What fruit would you lie to add ?:", list(PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST.index),['Jackfruit'])
+add_my_fruit = streamlit.text_input('What fruit would you lie to add ?:')
+streamlit.write('Thanks for adding ', add_my_fruit)
